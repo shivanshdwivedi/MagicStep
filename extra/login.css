@@ -99,3 +99,24 @@ body{
     margin-left: auto ;
     margin-right: auto ;
 }
+
+
+/* Mobile Styles */
+@media(max-width: 800px){
+    .login-img{
+        max-width: 100%;
+    }
+
+    .button-tab{
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .login-container{
+        margin-top: 0;
+    }
+
+    /* .mob-line{
+        display: inline !important;
+    } */
+}
