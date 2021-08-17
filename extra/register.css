@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.login-container{
+    margin: 80px 0 0 0;
+}
+
+.space-up{
+    margin-top: 9px;
+}
+
+.login-mess{
+    padding-bottom: 50px;
+    color: black;
+    font-size: 30px !important;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.log-img-sec{
+    margin-top: 80px;
+}
+
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+  }
+  .card-registration .select-arrow {
+    top: 13px;
+  }
+
+.register-img{
+    text-align: center;
+    padding: 7% 10%;
+    width: 650px;
+    height: 700px;
+}
+
+.pass-spa{
+    margin-top: 50px;
+}
+
+
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+.h-custom {
+  height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+  .h-custom {
+    height: 100%;
+  }
+}
+
+/* Buttons */
+.btn-login{
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    width: 300px;
+    height: 70px;
+    margin-top: 25px;
+    border-radius: 20px !important;
+    margin-bottom: 18px ;
+    border-color: #2ECC71 !important;
+    color: #2ECC71 !important;
+}
+
+
+/* .btn-login:hover{
+    background-color: #2ECC71 !important;
+} */
+
+.btn-outline-success:hover{
+    background-color: #2EEC71 !important;
+    color: #ffffff !important;
+}
+
+.btn-register{
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        width: 300px;
+        height: 70px;
+        margin-top: 25px;
+        border-radius: 20px !important;
+        margin-bottom: 18px ;
+        background-color: #2ECC71 !important;
+}
+.bold-size{
+    font-size: 25px !important;
+}
+
+.button-tab{
+    margin-right: 120px !important;
+}
+
+.pass-centre{
+    margin-left: auto ;
+    margin-right: auto ;
+}
+
+
+/* Mobile Styles */
+@media(max-width: 800px){
+    .register-img{
+        max-width: 100%;
+    }
+
+    .button-tab{
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .login-container{
+        margin-top: 0;
+    }
+
+    /* .mob-line{
+        display: inline !important;
+    } */
+}
