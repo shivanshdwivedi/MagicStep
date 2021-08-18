@@ -39,8 +39,20 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+.country-text{
+    font-family:'Montserrat', sans-serif !important;
+}
+
+.form-text{
+    background-color: #DCDCDC !important;
+    border: none;
+    border-radius: 13px !important;
+    width: 400px !important;
+
+}
+
 .log-img-sec{
-    margin-top: 80px;
+    margin-top: 40px;
 }
 
 .register-img{
@@ -141,23 +153,29 @@ b{
         text-align: center;
         padding: 7% 10%;
         width: 600px;
-        height: 390px;
+        height: 500px;
     }
 
     .space-up{
         position: absolute !important;
     }
 
-    .space-left{
+    /* .space-left{
         padding-left: 50px !important;
-    }
-
-    .mob-top-pad{
-        margin-top: 20px;
-    }
+        border-radius: 55px !important;
+    } */
 
     .pass-spa{
         margin-top: 0;
+    }
+
+    .log-img-sec{
+        margin-top: 0px !important;
+    }
+    
+
+    .mob-top-pad{
+        margin-top: 20px;
     }
 
     .row-class{
@@ -175,6 +193,11 @@ b{
 
     .login-container{
         margin-top: 0;
+    }
+
+    .card-align{
+        margin-left: auto !important;
+        margin-right: auto !important;
     }
 
     .width-mob{
@@ -202,6 +225,8 @@ b{
 
     .form-text{
         font-size: 15px !important;
+        background-color: #DCDCDC !important;
+        width: 260px !important;
     }
 
     .log-img-sec{
