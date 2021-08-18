@@ -30,6 +30,7 @@ body{
     margin-top: 9px;
 }
 
+
 .login-mess{
     padding-bottom: 50px;
     color: black;
@@ -140,7 +141,7 @@ b{
         text-align: center;
         padding: 7% 10%;
         width: 600px;
-        height: 330px;
+        height: 390px;
     }
 
     .space-up{
@@ -192,6 +193,15 @@ b{
     .bold-size{
         font-size: 20px !important;
     }
+
+    .form-text{
+        font-size: 15px !important;
+    }
+
+    .log-img-sec{
+        padding: 0 !important;
+    }
+    
 
     /* .mob-line{
         display: inline !important;
