@@ -123,13 +123,30 @@ color: white;
       padding-right: 0px !important;
   }
 
+  .row-pos{
+      position: absolute !important;
+      top: 600px;
+      right: 520px;
+  }
+
   /* Control the left side */
   .left {
     width: 17%;
     left: 0;
     padding: 5% 0 5% 3%;
-    
   }
+
+  .btn-mob{
+      margin-right: 50px;
+      border-radius: 30px !important;
+  }
+
+  .btn-mob-sec{
+      margin-left: 50px;
+      border-radius: 30px !important;
+  }
+
+
   
   /* Control the right side */
   .right {
