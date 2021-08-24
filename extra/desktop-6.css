@@ -231,4 +231,15 @@ color: white;
     .mob-text{
         font-size: 1.1rem !important;
     }
+    .split-left{
+        display: none;
+    }
+    .split-right{
+        border: none;
+        width: 100%;
+        max-width: 100%;
+        height: 250px;
+        padding-top: 0px;
+    }
 }
+
