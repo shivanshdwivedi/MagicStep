@@ -237,6 +237,12 @@ color: white;
     .mob-text{
         font-size: 1.1rem !important;
     }
+
+
+
+    /* Write Your Media Query Below this */
+
+
     .split-left{
         display: none;
     }
