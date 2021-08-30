@@ -116,6 +116,11 @@
     color: #2ECC71;
 }
 
+.extra-image-prop{
+    width: 180px;
+    padding-top: 25px;
+}
+
 .form-size{
     width: 50%;
 }
