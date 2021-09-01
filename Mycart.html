@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>My Cart</title>
+    <meta
+      name="have-i-been-pwned-verification"
+      value="7e8033561b1da752725ca93d9cebf1a2"
+    />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/final/images/logo/favicon.png" />
+    <!-- FONTAWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <!-- page css -->
+    <link rel="stylesheet" href="./extra/mycart.css">
+    <!-- Carousel CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <!-- Core css -->
+    <link href="./css/app.min.css" rel="stylesheet" />
+    <link href="./css/main.css" rel="stylesheet" />
+    <!-- Bootstrap  CSS-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <!--Bootstrap JS-->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+    <!-- IMPORT FONT -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <!--Nav Section-->
+    <nav class="navbar navbar-inverse navbar-dark navbar-static-top nav-back-style nav-hide">
+      <button class="navbar-toggler nav-link dropdown-toggle nav-button-mob" data-toggle="dropdown" type="button" id="dropdownMenuButton">
+        <span class="navbar-toggler-icon"></span>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Link</a>
+          <a class="dropdown-item" href="#">Link</a>
+        </div>
+      </button>
+
+      <div>
+        <i class="fas fa-map-marker-alt fa-color-front-loc fa-color-front fa-2x"></i>
+        <span class="navbar-text mob-color" id="heading">
+          <b>New Delhi,India</b> 
+        </span>
+      </div>
+     
+
+        <ul class="nav-flex-icons "></ul>
+        <li class="nav-item nav-type">
+          <a class="nav-link">
+            <span><i class="fas fa-bell fa-color-front fa-2x"></i></span>
+          </a>
+        </li>
+       
+      </ul>
+
+      
+      
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ml-auto nav-flex-icons">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>  
+           
+        </ul>
+        
+      </div>  
+      <form class="d-flex form-size" >
+        <input  id="searchbar"class="form-control mr-2 " type="search" placeholder="Search products" aria-label="Search"  >
+      </form>
+      <ul class="nav-flex-icons "></ul>
+        <li class="nav-item nav-type">
+          <a class="nav-link">
+            <span><i class="fas fa-shopping-cart fa-color fa-2x"></i></span>
+          </a>
+        </li>
+        <li class="nav-item nav-type nav-cart-space">
+          <a class="nav-link ">
+            <span><i class="fas fa-bell fa-color fa-2x"></i></span>
+          </a>
+        </li>
+      </ul>
+
+    </nav>
+<!-- This section for desktop view -->
+<section class="specific-order">
+  <div class="row p-5 ml-5">
+    <div class="col-md-7 extra-order-detail-left">
+      <h2 class="mb-5">My Cart</h2>
+        <div class="d-flex mb-5 ">
+          <div class="">
+              
+            <img class="w-75" src="img/71E5zB1qbIL 1 (1).jpg" alt="">
+          </div>
+          <div class="pt-4">
+            <h4>Apple iphone 12</h4>
+            <p class="m-0">$999</p>
+            <p class="m-0">$Red</p>
+            <p class="m-0">By Raja Electronics</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3 mt-4 extra-space-out">
+            
+          <button class="btn  btn-rounded pl-5 pr-5 pb-2 pt-2 extra-color-button">Checkout</button>
+          </div>
+         
+        </div>
+    </div>
+    <div class="col-md-3 order-left ml-5 pl-3">
+<h4 class="font-weight-bold mb-3">Order Type</h4>
+  <h6><i class="fas fa-truck-moving pr-3" ></i> Home Delivery</h6>
+  <hr>
+  <div class="row">
+    <div class="col-2">
+      <i class="fas fa-map-marker-alt extra-fa-color"></i>
+    </div>
+    <div class="">
+      <h5 class="font-weight-bold pb-2 pt-2">Delivery Address <br><br>  Mrignka Baruah </h5>
+      <h5>House no 15 <br> Near Greenland <br> North Lakhimpur <br>Assam <br>India <br>+911234567890 </h5>
+    </div>
+  </div>
+  <h5 class="font-weight-bold pt-2 pb-2">Payment Method</h5>
+  <div class="d-flex">
+    
+  <i class="fab fa-cc-visa fa-2x" ></i> <input type="number" class="w-75 ml-3 border-0" placeholder="**** **** **** 4321">
+  </div>
+  <hr>
+  <h6 class="font-weight-bold">Order Details</h6>
+  <table class="w-100">
+    <tbody>
+      <tr>
+        <td><h6>Subtotal</h6></td>
+        <td><h6 class="float-right">$999</h6><td>
+      </tr>
+      <tr>
+        <td><h6>Shipping Cost</h6></td>
+        <td><h6 class="float-right">$99</h6><td>
+      </tr>
+      <tr>
+        <td><h6 class="font-weight-bold pt-4">Total</h6></td>
+        <td><h6 class="font-weight-bold float-right pt-4">$1048</h6></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+  </div>
+</section>
+
+
+
+<!-- This section for mobile view -->
+<section class="mobile-order">
+  <div class="mobile-hide">
+    <h5 class="mb-3 mt-3 ml-3">Order Details</h5>
+    <div class="d-flex justify-content-around"> 
+       <h5 class="mb-2">Placed on Jun 1, 2021</h5>
+      <a class="text-success "href="#">View Invoice  <i class="fas fa-chevron-right ml-2 extra-fa-color"></i></a>
+     
+    </div>
+
+
+    <h6 class = "ml-3 mb-5 pb-3"style="font-weight:bold">Arriving on 1 July, 2021</h6>
+ 
+  
+    <div class="d-flex mb-5 ">
+      <div class="extra-image-prop">
+          
+        <img class="w-75" src="img/71E5zB1qbIL 1 (1).jpg" alt="">
+      </div >
+      <div class="pt-4 mr-3 pr-3">
+        <h5>Apple iphone 12</h5>
+        <p class="m-0">$999</p>
+        <p class="m-0">$Red</p>
+        <p class="m-0">By Raja Electronics</p>
+      </div>
+    </div>
+    <hr>
+  </div>
+
+</section>
+
+<section class="mobile-order">
+  <div class="mobile-hide" >
+    <div class="">
+     
+      
+      <h5 class="font-weight-bold">Order Type</h5>
+        <h5><i class="fas fa-truck-moving pr-3"></i> Home Delivery</h5>
+        <hr>
+        <div class="row">
+          <div class="col-2">
+            <i class="fas fa-map-marker-alt extra-fa-color"></i>
+          </div>
+          <div class="">
+            <h5 class="font-weight-bold">Delivery Address <br> <br> Mrignka Baruah </h5>
+            <h6>House no 15 <br> Near Greenland <br>North Lakhimpur <br>Assam <br>India <br>+911234567890 </h6>
+          </div>
+        </div>
+        <h6 class="font-weight-bold">Payment Method</h6>
+        <div class="d-flex">
+          
+        <i class="fab fa-cc-visa" ></i> 
+        <input type="text" 
+        class="w-75 ml-3 border-0" 
+        placeholder="**** **** **** 4321">
+        </div>
+        <hr>
+        <h6 class="font-weight-bold">Order Details</h6>
+        <table class="w-100">
+          <tbody>
+            <tr>
+              <td><h6>Subtotal</h6></td>
+              <td><h6 class="float-right">$999</h6><td>
+            </tr>
+            <tr>
+              <td><h6>Shipping Cost</h6></td>
+              <td><h6 class="float-right">$99</h6><td>
+            </tr>
+            <tr>
+              <td><h6 class="font-weight-bold pt-4">Total</h6></td>
+              <td><h6 class="font-weight-bold float-right pt-4">$1048</h6></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      
+      <div class="d-flex justify-content-between mt-4 mb-4">
+        <div class="text-center">
+          
+        <button class="btn btn-rounded pt-0 pb-1 pl-4 pr-4 extra-color-button">Cancel Order</button>
+        </div>
+        <div class="text-center">
+          
+        <button class="btn btn-rounded pt-0 pb-1 pl-4 pr-4 ml-4 extra-color-button">Need Help</button>
+        </div>
+      </div>
+  </div>
+</section>
+
+
+
+    <!-- Core Vendors JS -->
+    <script src="./js/vendors.min.js" defer></script>
+
+    <!-- page js -->
+    <!-- Carousel JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.js" defer></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Core JS -->
+    <script src="./js/app.min.js"></script>
+
+    <!-- Facebook Pixel Code -->
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "2.0";
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        "script",
+        "https://connect.facebook.net/en_US/fbevents.js"
+      );
+      fbq("init", "497776030646488");
+      fbq("track", "PageView");
+    </script>
+    <noscript>
+      <img
+        height="1"
+        width="1"
+        src="https://www.facebook.com/tr?id=497776030646488&ev=PageView
+        &noscript=1"
+      />
+    </noscript>
+    <script src="./js/lazyloading.min.js" async></script>
+
+    <!-- End Facebook Pixel Code -->
+  </body>
+</html>
