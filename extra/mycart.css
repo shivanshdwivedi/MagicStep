@@ -121,6 +121,13 @@
     padding-top: 25px;
 }
 
+.extra-button-add{
+    padding-left: 2.5rem; 
+    padding-right: 2.5rem;
+    background-color:#2ECC71 !important; 
+    color: #ffffff !important;
+}
+
 .extra-btn {
     background: #ffffff;
     border-radius: 50% !important;

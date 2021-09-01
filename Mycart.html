@@ -143,13 +143,13 @@
         </div>
         <div class="row">
             <div class="col-1">
-                <button class="extra-btn">+</button>
+                <button onclick="increment()" class="extra-btn">+</button>
             </div>
             <div class="col-1 text-center">
-                <p>1</p>
+                <p id="incdec"></p>
             </div>
             <div class="col-1">
-                <button class="extra-btn">-</button>
+                <button onclick="decrement()" class="extra-btn">-</button>
             </div>
         </div>
         <div class="d-flex mb-3 ">
@@ -164,25 +164,30 @@
               <p class="m-0">By Raja Electronics</p>
             </div>  
           </div>
-        <div class="row">
+          <div class="row">
             <div class="col-1">
-                <button class="extra-btn">+</button>
+                <button onclick="incrementdown()" class="extra-btn">+</button>
             </div>
             <div class="col-1 text-center">
-                <p>1</p>
+                <p id="incdecdown"></p>
             </div>
             <div class="col-1">
-                <button class="extra-btn">-</button>
+                <button onclick="decrementdown()" class="extra-btn">-</button>
             </div>
         </div>
         
 
         
 
-        <div class="row">
-          <div class="col-md-3 mt-4 extra-space-out"> 
-          <button class="btn  btn-rounded pl-5 pr-5 pb-2 pt-2 extra-color-button">Checkout</button>
-          </div>
+        
+          <div class=" mt-4 extra-space-out text-center "> 
+            <button
+            type="button"
+            class="btn btn-lg btn-register extra-button-add"
+          >
+            <b class="bold-size">Create Account</b>
+          </button>
+          
          
         </div>
     </div>
@@ -323,6 +328,7 @@
     <script src="./js/vendors.min.js" defer></script>
 
     <!-- page js -->
+    <script src="./js/index.js"></script>
     <!-- Carousel JS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.js" defer></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
