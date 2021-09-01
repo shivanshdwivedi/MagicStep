@@ -121,6 +121,21 @@
     padding-top: 25px;
 }
 
+.extra-btn {
+    background: #ffffff;
+    border-radius: 50% !important;
+    font-family: Arial;
+    color: #000000;
+    font-size: 18px;
+    
+    border: solid #030303 1px !important;
+    text-decoration: none;
+  }
+  
+  .extra-btn:hover {
+    text-decoration: none;
+  }
+
 .form-size{
     width: 50%;
 }
