@@ -139,9 +139,9 @@ color: white;
 
   /* Control the left side */
   .left {
-    width: 17%;
+    width: 15%;
     left: 0;
-    padding: 5% 0 5% 3%;
+    padding: 5% 0 5% 2.6%;
   }
 
   .btn-mob{
@@ -182,7 +182,7 @@ color: white;
   
   /* Control the right side */
   .right {
-    width: 83%;
+    width: 85%;
     right: 0;
    
   }
