@@ -65,14 +65,19 @@
 
   <body>
     <!--Nav Section-->
-    <nav class="navbar navbar-inverse navbar-dark navbar-static-top nav-back-style nav-hide">
-      <button class="navbar-toggler nav-link dropdown-toggle nav-button-mob" data-toggle="dropdown" type="button" id="dropdownMenuButton">
-        <span class="navbar-toggler-icon"></span>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a class="dropdown-item" href="#">Link</a>
-          <a class="dropdown-item" href="#">Link</a>
-        </div>
+     
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Clients</a>
+      <a href="#">Contact</a>
+    </div>
+  <nav class="navbar navbar-inverse navbar-dark navbar-static-top nav-back-style">
+      <button class="navbar-toggler nav-button-mob" style = "border: none;" data-toggle="dropdown" type="button" onclick="openNav()" >
+        <span>&#9776;</span>
       </button>
+
 
       <div>
         <i class="fas fa-map-marker-alt fa-color-front-loc fa-color-front fa-2x"></i>
@@ -295,6 +300,7 @@
     <script src="./js/vendors.min.js" defer></script>
 
     <!-- page js -->
+    <script src="./js/index.js"></script>
     <!-- Carousel JS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.js" defer></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
