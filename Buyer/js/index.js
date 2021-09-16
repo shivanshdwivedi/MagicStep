@@ -41,3 +41,9 @@ function openNav() {
   function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
   }
+
+
+
+$(document).on('click',function(){
+$('.collapse').collapse('hide');
+})
