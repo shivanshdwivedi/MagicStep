@@ -108,7 +108,7 @@ color: white;
 
   .card{
       position: relative !important;
-      border-radius: 25px !important;
+      border-radius: 18px !important;
       padding: 8px;
       display: block;
   }
