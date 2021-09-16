@@ -216,7 +216,12 @@ color: white;
     }
     .card-pos{
         width: 500px;
-        right: 460px;
+        right: 520px;
+    }
+    .extra-desk-prop{
+        padding-top: 250px !important;
+        padding-left: 40px !important;
+        padding-bottom: 25px !important;
     }
    
 }
@@ -259,6 +264,9 @@ color: white;
     }
     .mob-text{
         font-size: 1.1rem !important;
+    }
+    .extra-desk-prop{
+        margin-top: 370px;
     }
 
 
