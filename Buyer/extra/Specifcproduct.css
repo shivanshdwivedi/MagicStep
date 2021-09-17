@@ -75,6 +75,9 @@
 
 
 @media(min-width: 960px){
+    .fa-color-front-mob{
+        color: white !important;
+    }
     .fa-color-front{
         display: none !important;
     }
@@ -172,7 +175,7 @@ Nav side bar section */
     .sidenav a {font-size: 18px;}
   }
 
-  /* Section ends */
+/* Section ends */
 
 /* End Nav Styles */
 

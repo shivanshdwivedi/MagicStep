@@ -133,6 +133,12 @@ Nav side bar section */
     .split{
         position: fixed;
     }
+    .fa-color-front-mob{
+        color: white !important;
+    }
+    .fa-color-front{
+        display: none !important;
+    }
 }
 .split {
     height: 100%;

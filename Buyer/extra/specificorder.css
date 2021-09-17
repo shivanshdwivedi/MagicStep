@@ -185,6 +185,9 @@ Nav side bar section */
     .fa-color-front{
         display: none !important;
     }
+    .fa-color-front-mob{
+        color: white !important;
+    }
 }
 
 @media(max-width: 960px){
