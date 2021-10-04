@@ -1,0 +1,91 @@
+.container-fluid {
+    background-color: rgb(228, 227, 226);
+    min-height: 700px;
+}
+
+.nav .h3 {
+    padding: 10px;
+}
+
+.decr {
+    color: rgb(6, 84, 230);
+}
+
+.icon-content-center {
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon-content-center img {
+    width: 60px;
+    height: 60px;
+}
+
+.icon-content-center .card {
+    width: 125px;
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    border-radius: 10px !important;
+}
+
+.main-card-view {
+    display: flex !important;
+    justify-content: space-between !important;
+    padding: 5px 20px;
+    min-height: 220px;
+}
+
+.row-title {
+    display: flex !important;
+    justify-content: space-between !important;
+    padding: 5px 25px 5px 10px;
+}
+
+.row-title .btn-success {
+    background-color: rgb(6, 201, 6) !important;
+    height: 25px;
+    padding-top: 0px !important;
+    border: transparent;
+    border-radius: 10px;
+}
+
+.input-format input {
+    background-color: #d6d6d6;
+    border-radius: 10px;
+    height: 35px;
+    padding-left: 15px;
+    width: 100%;
+    border-color: transparent;
+}
+
+.input-format i {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
+
+.input-format {
+    margin: 10px 20px;
+    width: calc(100% - 40px);
+    position: relative;
+}
+
+
+/* .main-card-view>div {
+    display: inline-block !important;
+} */
+
+img {
+    width: 80px !important;
+}
+
+@media (max-width: 576px) {
+    .d-xs-none {
+        display: none!important;
+    }
+}
