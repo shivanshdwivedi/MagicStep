@@ -46,3 +46,19 @@
 .btn1 {
   padding-left: 20px;
 }
+@media only screen and (max-width:992px) {
+    .Button {
+      position: absolute;
+      top: 55rem;
+      right:1.5rem;
+      padding-bottom: 20px;
+    }
+    #div2 {
+      border-top: 1px solid #DCDCDC;
+      padding-top: 30px;
+    }
+    #div1-1 {
+      padding-bottom: 20px;
+    }
+
+}
