@@ -1,0 +1,163 @@
+.nav-item{
+    text-decoration: none;
+}
+
+.nav-back-style{
+    background-color: #2ECC71; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-toggler{
+    color: white !important;
+    border-color: white !important;
+}
+
+.navbar-toggler-icon{
+    color: white !important;
+    border-color: white !important;
+}
+
+.col-align{
+    text-align: right !important;
+}
+
+.nav-type{
+    list-style-type: none;
+}
+
+.fa-color{
+    color:white;
+}
+
+.para-size{
+    font-weight: 400;
+    color: black;
+    font-size: 19px !important;
+}
+
+.card-title{
+    margin-bottom: 0px !important;
+    text-align: center !important;
+}
+
+.nav-cart-space{
+    margin-right: 120px;
+}
+.nav-align{
+    text-align: left !important;
+}
+
+
+/* 
+Nav side bar section */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #2ECC71; ;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 160px;
+  }
+  
+  .sidenav a {
+    padding: 4px 4px 4px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  /* Section ends */
+
+.fa-color-5{
+    color: #2ECC71;
+}
+
+
+@media(min-width: 960px){
+    .fa-color-front{
+        display: none !important;
+    }
+    .fa-color-front-mob{
+        color: white !important;
+    }
+}
+
+@media(max-width: 960px){
+    .img-res{
+        max-width: 100% !important;
+    }
+    .nav-back-style{
+        background-color: #ffffff; 
+        font-family: 'Montserrat', sans-serif;
+        color: black;
+    }
+    .mob-color{
+        color: black !important;
+    }
+    .fa-color{
+        color: black;
+    }
+    .nav-button-mob{
+        display: none !important;
+    }
+    .form-size{
+        width: 100%;
+        border-radius: 25px !important;
+        padding-top: 15px;
+    }
+    .fa-color{
+        display: none !important;
+    }
+    .fa-color-front-loc{
+        color:  #2ECC71;
+    }
+    .mob-align-spa{
+        padding: 0px !important;
+    }
+    .mob-text{
+        font-size: 1.1rem !important;
+    }
+    .img-mob{
+        display: none;
+    }
+}
+#heading{
+    padding-top: 10px;
+    font-size: large;
+    color: white;
+    }
+
+    /* Order detail */
+
+    .extra-order-detail-left{
+        border-right: 1px solid black;
+    }
+.extra-order-detail-left button{
+    border-radius: 9px;
+}
+.mobile-hide{
+    display: none;
+}
