@@ -1,0 +1,151 @@
+.button {
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #4066E0;
+  color: #fff;
+  font-size: 30px;
+  padding-bottom: 6px;
+  margin-top: 280px;
+  margin-bottom: 20px;
+  float: right;
+}
+
+.vaccant {
+  background-color: #C0C0C0;
+}
+
+.block {
+  background-color: #E0E0E0;
+}
+
+.money1 {
+  color: green;
+}
+
+.money2 {
+  color: red;
+}
+
+.card {
+  margin: 30px 20px 20px 30px;
+  padding: 10px 10px 10px 10px;
+}
+
+.supp {
+  color: grey;
+}
+
+.search {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  background-color: #F8F8F8;
+}
+
+
+input[type=text] {
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 25px;
+  font-size: 17px;
+}
+
+@media only screen and (max-width:992px) {
+  .vaccant {
+    visibility: collapse;
+  }
+
+  .input-field {
+   margin-left: 80px;
+  }
+
+  .card {
+    margin: 50px 30px 30px 50px;
+  }
+
+  .block {
+    width: 100%;
+  }
+
+  .search {
+    position: absolute;
+    bottom: 60px;
+    left: 90px;
+  }
+
+  .cust {
+    position: absolute;
+    top: 67px;
+  }
+
+  br {
+    display: none;
+  }
+
+  .fav {
+    margin-left: 80px;
+  }
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #F8F8F8;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-top: 10px;
+}
+
+.topnav a:hover {
+  background-color: #E0E0E0;
+  color: #fff;
+}
+
+.topnav a.active {
+  margin-left: 100px;
+  text-decoration: underline solid #00FF00 10px;
+  text-underline-offset: 15px;
+  color: white;
+}
+
+.first {
+  background-color: #F8F8F8;
+}
+
+.input-icons i {
+  position: absolute;
+}
+
+.input-icons {
+  width: 350px;
+  margin-bottom: 10px;
+}
+
+.icon {
+  padding: 40px;
+  min-width: 40px;
+}
+
+@media(min-width : 900px){
+  .input-field{
+    width: 350px;
+  }
+}
+
+.input-field {
+  padding: 10px;
+  background-color: #E0E0E0;
+}
+
+.full-width {
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
