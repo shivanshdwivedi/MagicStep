@@ -149,11 +149,16 @@ Nav side bar section */
     font-size: 20px !important;
     background-color: #F7F395 !important;
 }
-
+.extra-color-button-secondary{
+    border-color: #F7F395 !important;
+    color: black  !important;
+    font-size: 16px !important;
+    background-color: #F7F395 !important;
+}
 
 .extra-color-button-details
 {
-    
+   
     color: black  !important;
     font-size: 15px !important;
     background-color: #E4E4E4 !important;
