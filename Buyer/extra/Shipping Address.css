@@ -1,0 +1,266 @@
+
+html,body{
+    overflow-y: hidden !important;
+    overflow-x: hidden !important;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#heading {
+    padding-top: 10px;
+    font-size: large;
+    color: white;
+}
+
+#fashion {
+    color: #2ECC71;
+    font-weight: 600;
+}
+
+#searchbar {
+    background-color: #F5F5F5;
+}
+
+#discover {
+    font-weight: 400;
+}
+
+.nav-item {
+    text-decoration: none;
+}
+
+.nav-back-style {
+    background-color: #2ECC71;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-toggler {
+    color: white !important;
+    border-color: white !important;
+}
+
+.navbar-toggler-icon {
+    color: white !important;
+    border-color: white !important;
+}
+
+.col-align {
+    text-align: right !important;
+}
+
+.nav-type {
+    list-style-type: none;
+}
+
+
+/* 
+Nav side bar section */
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #2ECC71;
+    ;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 160px;
+}
+
+.sidenav a {
+    padding: 4px 4px 4px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+
+/* Section ends */
+
+.fa-color {
+    color: white;
+}
+
+.container-spaced {
+    padding: 2% 10% !important;
+}
+
+.container-align {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.nav-cart-space {
+    margin-right: 120px;
+}
+
+.container {
+    padding-top: 20px !important;
+    padding-bottom: 10px !important;
+}
+
+.nav-align {
+    text-align: left !important;
+}
+
+#raja {
+    display: flex;
+}
+
+.form-size {
+    width: 50%;
+}
+
+#star {
+    color: #2ECC71;
+}
+
+#starb {
+    color: rgb(167, 157, 157);
+}
+
+.extra-hr {
+    height: 2px;
+    border-width: 0;
+    color: gray;
+    background-color: gray
+}
+
+@media(min-width: 960px) {
+    .fa-color-front {
+        display: none !important;
+    }
+    .fa-color-front-mob {
+        color: white !important;
+    }
+}
+
+@media(max-width: 960px) {
+    .img-res {
+        max-width: 100% !important;
+    }
+    .nav-back-style {
+        background-color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        color: black;
+    }
+    .mob-color {
+        color: black !important;
+    }
+    .fa-color {
+        color: black;
+    }
+    .nav-button-mob {
+        display: none !important;
+    }
+    .form-size {
+        width: 100%;
+        border-radius: 25px !important;
+        padding-top: 15px;
+    }
+    .fa-color {
+        display: none !important;
+    }
+    .fa-color-front-loc {
+        color: #2ECC71;
+    }
+    .mob-align-spa {
+        padding: 0px !important;
+    }
+    .mob-text {
+        font-size: 1.1rem !important;
+    }
+    .img-mob {
+        display: none;
+    }
+}
+
+.form-control {
+    background-color: gainsboro !important;
+}
+
+
+/* .col-sm-12,
+.col-md-6,
+.col-12 {
+    margin: 15px;
+    padding: 20px;
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+}
+*/
+
+.h2 {
+    margin-top: 15px !important;
+    margin-bottom: 10px !important;
+    font-size: 1.8rem !important;
+}
+
+input.form-control {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.buton {
+    background-color: #43eb89 !important;
+    color: white !important;
+    width: 40% !important;
+}
+
+/* .bu-row {
+    display: flex !important;
+    justify-content: end !important;
+    left: 180px !important;
+} */
+
+.extra-text-align{
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+
+/* @media (min-width: 576px) {
+    .hed {
+        font-size: 28px !important;
+        padding: 5px;
+    }
+    .col-md-6,
+    .col-md-12 {
+        margin: 0px 0 px !important;
+    }
+} */
