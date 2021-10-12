@@ -56,10 +56,16 @@ Navbar css starts */
 }
 
 
-@media(max-width : 850px){
+@media(min-width : 970px){
+    .navbar-fin{
+        display: none !important;
+    }
+}
+
+@media(max-width : 960px){
     .navbar-fin {
         overflow: hidden;
-        background-color: #333;  
+        background-color: gray;  
         position: fixed;
         bottom: 0;
         width: 100%;
@@ -68,7 +74,7 @@ Navbar css starts */
       .navbar-fin a {
         float: left;
         display: block;
-        color: #f2f2f2;
+        color: black;
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
