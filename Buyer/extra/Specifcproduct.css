@@ -74,18 +74,43 @@
 }
 
 
-@media(min-width: 960px){
-    .fa-color-front-mob{
-        color: white !important;
-    }
-    .fa-color-front{
+@media(min-width : 970px){
+    .navbar-fin{
         display: none !important;
-    }
-    .extra-desk-review{
-        text-align: left !important;
     }
 }
 
+@media(max-width : 960px){
+    .navbar-fin {
+        overflow: hidden;
+        background-color: gray;  
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 62px;
+      } 
+      .navbar-fin a {
+        float: left;
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      .navbar-fin a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      .navbar-fin a.active {
+        background-color: #04AA6D;
+        color: white;
+      }
+      
+      .navbar-fin .icon {
+        display: none;
+      }      
+}
 @media(max-width: 960px){
     
     .nav-back-style{
