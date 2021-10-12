@@ -16,7 +16,20 @@
     color: white !important;
     border-color: white !important;
 }
+/* 
+@media(max-width : 650px){
 
+    .bottom-nav{
+        position: relative;
+        min-height:100%;
+    }
+    .extra-nav-bottom{
+        position:absolute !important;
+        bottom:0 !important;
+        width:100% !important;
+    }
+}
+ */
 
 /* 
 Nav side bar section */
