@@ -1,0 +1,29 @@
+i {
+    color: rgb(39, 206, 39);
+    /* width:;
+    height: 100%; */
+    font-size: 150px;
+}
+
+.thank-text {
+    margin: 20px 0;
+    font-size: 30px;
+}
+
+.icon-tick {
+    margin: 15px 0;
+}
+
+button {
+    background-color: rgb(30, 194, 8);
+    border: transparent;
+    border-radius: 10px !important;
+    color: white;
+    width: 150px !important;
+    height: 35px !important;
+    font-size: 20px !important;
+}
+
+.invoice {
+    margin-top: 250px;
+}
