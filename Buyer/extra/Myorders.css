@@ -233,4 +233,7 @@ Nav side bar section */
       .extra-help-space{
           margin-bottom: 60px !important;
       }
+      .extra-mob-hide{
+          display: none;
+      }
 }
