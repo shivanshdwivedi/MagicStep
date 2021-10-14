@@ -7,7 +7,8 @@ body,html{
 .image {
   background-color: #1F51FF;
   border-radius: 50%;
-  padding: 10px 10px 10px 10px;
+  width: 90%;
+  padding: 10px;
 }
 
 .dot1 {
