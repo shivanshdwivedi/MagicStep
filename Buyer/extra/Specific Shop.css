@@ -237,7 +237,7 @@ Nav side bar section */
       margin-right: 50px;
       border-radius: 30px !important;
       margin-right: 0 !important;
-      padding-right: 80px !important;
+      padding-right: 55px !important;
       padding-top: 15px !important;
       padding-bottom: 15px !important;
       font-size: 22px !important;
@@ -328,6 +328,12 @@ Nav side bar section */
     .mob-color{
         color: black !important;
     }
+
+    .bold-size{
+       padding-left: 10px !important;
+    }
+
+
     .extra-bold-size{
         font-size: 16px;
     }
