@@ -47,3 +47,8 @@ function openNav() {
 $(document).on('click',function(){
 $('.collapse').collapse('hide');
 })
+
+$('#collapse3').on('click',function(){
+  $('.collapse').collapse('hide');
+  })
+  

@@ -50,6 +50,15 @@
 }
 
 
+@media(min-width: 960px){
+    .fa-mob-out{
+        color: white !important;
+    }
+    .fa-mob-out-bell{
+        display: none !important;
+    }
+}
+
 .fa-color{
     color:white;
 }
@@ -97,10 +106,6 @@
         padding: 14px 16px;
         text-decoration: none;
         font-size: 17px;
-      }
-      /* .navbar-fin a:hover {
-        background-color: #ddd;
-        color: black; */
       }
       .navbar-fin a.active {
         background-color: #04AA6D;
