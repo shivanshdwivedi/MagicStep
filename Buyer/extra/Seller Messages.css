@@ -161,32 +161,33 @@ body,html{
 
 @media(max-width : 960px){
   .navbar-fin {
-      overflow: hidden;
-      background-color: gray;  
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-      height: 62px;
-    } 
-    .navbar-fin a {
-      float: left;
-      display: block;
-      color: black;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      font-size: 17px;
-    }
-    .navbar-fin a:hover {
-      background-color: #ddd;
-      color: black;
-    }
-    .navbar-fin a.active {
-      background-color: #04AA6D;
-      color: white;
-    }
-    
-    .navbar-fin .icon {
-      display: none;
-    }      
+    overflow: hidden;
+    background-color: white;  
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 62px;
+    border-top: 1px solid black;
+  } 
+  .navbar-fin a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 8px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  .navbar-fin a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .navbar-fin a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .navbar-fin .icon {
+    display: none;
+  }     
 }
