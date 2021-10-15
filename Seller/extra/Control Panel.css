@@ -31,7 +31,8 @@
 }
 p{
     text-align: center;
-    font-size: smaller;
+    font-size: 15px !important;
+    color: black !important;
 }
 
 .mainpic{
