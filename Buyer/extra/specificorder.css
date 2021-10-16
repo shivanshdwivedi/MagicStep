@@ -17,6 +17,12 @@
     border-color: white !important;
 }
 
+@media (min-width: 960px){
+    .navbar-fin{
+        display: none !important;
+    }
+}
+
 @media(max-width : 850px){
     .navbar-fin {
         overflow: hidden;
