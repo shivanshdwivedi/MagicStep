@@ -24,6 +24,12 @@ button{
 .input input{
   height: 28px;
 }
+#textAreaExample6 {
+  background-color: #F0F0F0;
+}
+#textAreaExample6:focus {
+  background-color: #fff;
+}
 
 @media screen and (max-width: 600px) {
   .input{
